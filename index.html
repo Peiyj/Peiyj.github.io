@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="class-toggler">
+        <div class="menu-toggler">
             <div class="bar half start"></div>
             <div class="bar"></div>
             <div class="bar half end"></div>
@@ -21,16 +21,16 @@
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li>
-                    <a href="#about me" class="nav-link">About me</a>
-                </li>
-                <li>
-                    <a href="#job experiences" class="nav-link">Job Experiences</a>
+                    <a href="#about" class="nav-link">About</a>
                 </li>
                 <li>
                     <a href="#portfolio" class="nav-link">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#contract" class="nav-link">Contract</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li> 
             </ul>
         </nav>
@@ -39,7 +39,7 @@
             <h6>Software Developer</h6>
         </div>
     </header>
-    <section class="about me" id="about me">
+    <section class="about" id="about">
         <div class="container">
             <div class="profile-image">
                 <img src="images/profile.jpeg" alt="" class="">
@@ -93,7 +93,7 @@
             </div>
         </div>
     </section>
-    <section class="job experiences" id="job experiences">
+    <section class="experience" id="experience">
         <div class="container">
             <div class="section-heading">
                 <h1>Work Experience</h1>
@@ -123,7 +123,77 @@
             </div>  
         </div>    
     </section>
-    
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent works</h6>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-description">
+                <h6>Web Design</h6>
+                <h1>Product Sketch</h1>
+                <p>
+                    hello
+                </p>
+                <a href="#" class="cta">View Details</a>
+            </div>
+            <div class="portfolio img">
+                <img src="images/portitem1.jpeg" alt="">
+            </div> 
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-description">
+                <h6>Web Development</h6>
+                <h1>Product Sketch</h1>
+                <p>
+                    hello
+                </p>
+                <a href="#" class="cta">View Details</a>
+            </div>
+            <div class="portfolio img">
+                <img src="images/portitem2.jpeg" alt="">
+            </div> 
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-description">
+                <h6>Software Development</h6>
+                <h1>Product Sketch</h1>
+                <p>
+                    hello
+                </p>
+                <a href="#" class="cta">View Details</a>
+            </div>
+            <div class="portfolio img">
+                <img src="images/portitem3.jpeg" alt="">
+            </div> 
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>contact</h1>
+            </div>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+            <p>&copy; 2019 Patrick Pei</p>
+        </div>    
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
